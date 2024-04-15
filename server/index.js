@@ -29,6 +29,7 @@ app.get("/resenas/:id_producto", async (req, res)=>{
 });
 app.post("/resenas/crear", async (req, res)=>{
     try {
+      console.log(req.body)
         let respuesta = await db.crearResena(req.body);
         let promedio = await db.actualizarPromedioProducto(req.body.id_producto);
         res.status(200).send(respuesta);

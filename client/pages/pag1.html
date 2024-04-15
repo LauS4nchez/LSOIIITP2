@@ -20,45 +20,180 @@
 
     <h2>Elija el que desee reseñar</h2>
     <div class="contenedor">
-        <!-- <div>
-            <details>
-                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
-                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
-                <form method="post" action="" id="contentFormulario" class="formulario_resena">
-                    <textarea placeholder="Escribí acá tu reseña..."></textarea><input type="text"
-                        placeholder="-/10"><input type="text" placeholder="Escribí tu nombre..."><input type="button"
-                        value="Confirmar" onclick="alert('Recibido!')">
-                </form>
-            </details>
-        </div>
-        <div>
-            <details>
-                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
-                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
-                <form method="post" action="" id="contentFormulario1" class="formulario_resena">
-                    <textarea placeholder="Escribí acá tu reseña..."></textarea><input type="text"
-                        placeholder="-/10"><input type="text" placeholder="Escribí tu nombre..."><input type="button"
-                        value="Confirmar" onclick="alert('Recibido!')">
-                </form>
-            </details>
-        </div> -->
         <div>
             <details style="width: 350px;">
                 <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
                         alt="buttonpng" width="350" height="250" class="boton-img"></summary>
-                <form method="post" id="contentFormulario2" class="formulario_resena"
-                    onsubmit="(e)=>{e.preventDefault();alert('recibido')}">
-                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required></textarea>
-                    <input type="numer" placeholder="-/10" min="0" max="10" required>
-                    <input type="text" placeholder="Escribí tu nombre..." required>
+                <form method="post" id="contentFormulario1" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required class="poppins-regular"
+                        id="comentario1" name="comentario1"></textarea>
+                    <input type="number" placeholder="-/10" min="0" max="10" required class="poppins-regular"
+                        id="valoracion1" name="valoracion">
+                    <input type="text" placeholder="Escribí tu nombre..." required class="poppins-regular" id="nombre1"
+                        name="nombre">
                     <input type="submit" value="Confirmar">
+                    <input type="hidden" value="1" id="producto_1" />
                 </form>
             </details>
         </div>
+        <div>
+            <details style="width: 350px;">
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" id="contentFormulario2" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required class="poppins-regular"
+                        id="comentario2" name="comentario2"></textarea>
+                    <input type="number" placeholder="-/10" min="0" max="10" required class="poppins-regular"
+                        id="valoracion2" name="valoracion">
+                    <input type="text" placeholder="Escribí tu nombre..." required class="poppins-regular" id="nombre2"
+                        name="nombre">
+                    <input type="submit" value="Confirmar">
+                    <input type="hidden" value="2" id="producto_2" />
+                </form>
+            </details>
+        </div>
+        <div>
+            <details style="width: 350px;">
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" id="contentFormulario3" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required class="poppins-regular"
+                        id="comentario3" name="comentario3"></textarea>
+                    <input type="number" placeholder="-/10" min="0" max="10" required class="poppins-regular"
+                        id="valoracion3" name="valoracion">
+                    <input type="text" placeholder="Escribí tu nombre..." required class="poppins-regular" id="nombre3"
+                        name="nombre">
+                    <input type="submit" value="Confirmar">
+                    <input type="hidden" value="4" id="producto_3" />
+                </form>
+            </details>
+        </div>
+        <div>
+            <details style="width: 350px;">
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" id="contentFormulario4" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required class="poppins-regular"
+                        id="comentario4" name="comentario4"></textarea>
+                    <input type="number" placeholder="-/10" min="0" max="10" required class="poppins-regular"
+                        id="valoracion4" name="valoracion">
+                    <input type="text" placeholder="Escribí tu nombre..." required class="poppins-regular" id="nombre4"
+                        name="nombre">
+                    <input type="submit" value="Confirmar">
+                    <input type="hidden" value="5" id="producto_4" />
+                </form>
+            </details>
+        </div>
+        <div>
+            <details style="width: 350px;">
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" id="contentFormulario5" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required class="poppins-regular"
+                        id="comentario5" name="comentario5"></textarea>
+                    <input type="number" placeholder="-/10" min="0" max="10" required class="poppins-regular"
+                        id="valoracion5" name="valoracion">
+                    <input type="text" placeholder="Escribí tu nombre..." required class="poppins-regular" id="nombre5"
+                        name="nombre">
+                    <input type="submit" value="Confirmar">
+                    <input type="hidden" value="6" id="producto_5" />
+                </form>
+            </details>
+        </div>
+        <div>
+            <details style="width: 350px;">
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" id="contentFormulario6" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required class="poppins-regular"
+                        id="comentario6" name="comentario"></textarea>
+                    <input type="number" placeholder="-/10" min="0" max="10" required class="poppins-regular"
+                        id="valoracion6" name="valoracion">
+                    <input type="text" placeholder="Escribí tu nombre..." required class="poppins-regular" id="nombre6"
+                        name="nombre">
+                    <input type="submit" value="Confirmar">
+                    <input type="hidden" value="7" id="producto_6" />
+                </form>
+            </details>
+        </div>
+
+
     </div>
+    <script src="../scripts//db-connection.js"></script>
+    <script>
+        document.getElementById('contentFormulario1').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            let resena = {
+                comentario_resena: document.getElementById('comentario1').value,
+                valor_resena: document.getElementById('valoracion1').value,
+                nombre_usuario: document.getElementById('nombre1').value,
+                id_producto: document.getElementById('producto_1').value
+            }
+            await crearResena(resena);
+            alert("Reseña publicada.")
 
-    <script src="scripts/script1.js"></script>
+        });
+        document.getElementById('contentFormulario2').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            let resena = {
+                comentario_resena: document.getElementById('comentario2').value,
+                valor_resena: document.getElementById('valoracion2').value,
+                nombre_usuario: document.getElementById('nombre2').value,
+                id_producto: document.getElementById('producto_2').value
+            }
+            await crearResena(resena);
+            alert("Reseña publicada.")
 
+        });
+        document.getElementById('contentFormulario3').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            let resena = {
+                comentario_resena: document.getElementById('comentario3').value,
+                valor_resena: document.getElementById('valoracion3').value,
+                nombre_usuario: document.getElementById('nombre3').value,
+                id_producto: document.getElementById('producto_3').value
+            }
+            await crearResena(resena);
+            alert("Reseña publicada.")
+
+        });
+        document.getElementById('contentFormulario4').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            let resena = {
+                comentario_resena: document.getElementById('comentario4').value,
+                valor_resena: document.getElementById('valoracion4').value,
+                nombre_usuario: document.getElementById('nombre4').value,
+                id_producto: document.getElementById('producto_4').value
+            }
+            await crearResena(resena);
+            alert("Reseña publicada.")
+
+        });
+        document.getElementById('contentFormulario5').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            let resena = {
+                comentario_resena: document.getElementById('comentario5').value,
+                valor_resena: document.getElementById('valoracion5').value,
+                nombre_usuario: document.getElementById('nombre5').value,
+                id_producto: document.getElementById('producto_5').value
+            }
+            await crearResena(resena);
+            alert("Reseña publicada.")
+
+        });
+        document.getElementById('contentFormulario6').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            let resena = {
+                comentario_resena: document.getElementById('comentario6').value,
+                valor_resena: document.getElementById('valoracion6').value,
+                nombre_usuario: document.getElementById('nombre6').value,
+                id_producto: document.getElementById('producto_6').value
+            }
+            await crearResena(resena);
+            alert("Reseña publicada.")
+        });
+
+    </script>
 </body>
 
 </html>

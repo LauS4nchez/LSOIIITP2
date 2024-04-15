@@ -32,10 +32,11 @@ export async function obtenerResenasSegunProducto(id_producto) {
 }
 
 export async function crearResena(resena) {
+  
     try {
         const respuesta = await pool.query(
             "INSERT INTO resenas (id_producto, comentario_resena, valor_resena, nombre_usuario) VALUES (?,?,?,?)",
-            [resena.id_producto, resena.comentario_resena, resena.valor_resena, resena.nombre_resena]
+            [resena.id_producto, resena.comentario_resena, resena.valor_resena, resena.nombre_usuario]
         );
         return respuesta.insertId;
     } catch (e) {

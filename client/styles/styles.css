@@ -24,8 +24,13 @@
 
 .video
 {
-    width:  12cm;
-    height: 8cm;
+    width: 100%;
+    min-height: 400px;
+}
+.video-sin-resenas
+{
+    width:  600px;
+    min-height: 400px;
 }
 
 .conclusion
@@ -57,8 +62,9 @@ details > summary:first-of-type {
     width: 350px;
 }
 .contenedor-tab{
-    display: flex; justify-content: space-between;
-    border: 1px solid #ccc;
+    display: flex; 
+    justify-content: center;
+    align-items:center;
 }
 .boton-crear{
     
@@ -68,20 +74,21 @@ details > summary:first-of-type {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    display: flex;    
+    
   }
   
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 20px 16px;
     transition: 0.3s;
     font-size: 17px;
+    width: 100%;
   }
   
   /* Change background color of buttons on hover */
@@ -106,7 +113,7 @@ details > summary:first-of-type {
 
   .button-crear {
     font-family: inherit;
-    font-size: 20px;
+    font-size: 16px;
     background: #212121;
     color: white;
     fill: rgb(155, 153, 153);
@@ -154,4 +161,3 @@ details > summary:first-of-type {
   .button-crear:active {
     transform: scale(0.95);
   }
-  
