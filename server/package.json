@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "servidor-http-basico",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon node index.js"
+  },
+  "author": "Lautaro Sánchez Bonaldo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

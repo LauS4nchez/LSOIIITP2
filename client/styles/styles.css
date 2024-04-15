@@ -1,0 +1,157 @@
+.title 
+{
+    text-align: center;
+    font-size: 150%;
+}
+
+.table
+{
+    border: 0;
+    margin: auto;
+}
+
+.tableText1
+{
+    font-size: 140%;
+    width: 70%;
+}
+
+.tableText2
+{
+    font-size: 140%;
+    width: 60%;
+}
+
+.video
+{
+    width:  12cm;
+    height: 8cm;
+}
+
+.conclusion
+{
+    text-align: center;
+    font-size: 110%;
+}
+/* Hide the default summary marker */
+details > summary:first-of-type {
+    display: list-item;
+    counter-increment: list-item 0;
+    list-style: none;
+}
+.boton-img{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.boton-img:hover{
+    transform: scale(1.05);
+}
+.contenedor{
+    margin-left: 3em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.formulario_resena{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.contenedor-tab{
+    display: flex; justify-content: space-between;
+    border: 1px solid #ccc;
+}
+.boton-crear{
+    
+    cursor: pointer;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+
+  .button-crear {
+    font-family: inherit;
+    font-size: 20px;
+    background: #212121;
+    color: white;
+    fill: rgb(155, 153, 153);
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-weight: 1000;
+  }
+  
+  .button-crear span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-crear svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button-crear:hover {
+    background: #000;
+  }
+  
+  .button-crear:hover .svg-wrapper {
+    transform: scale(1.25);
+    transition: 0.5s linear;
+  }
+  
+  .button-crear:hover svg {
+    transform: translateX(1.2em) scale(1.1);
+    fill: #fff;
+  }
+  
+  .button-crear:hover span {
+    opacity: 0;
+    transition: 0.5s linear;
+  }
+  
+  .button-crear:active {
+    transform: scale(0.95);
+  }
+  

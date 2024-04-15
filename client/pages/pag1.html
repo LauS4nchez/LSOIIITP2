@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pipes Falling</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/poppins.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="poppins-regular">
+    <h1>Reseñá!</h1>
+
+    <p>¿Cuál querés reseñar?</p>
+
+    <h2>Elija el que desee reseñar</h2>
+    <div class="contenedor">
+        <!-- <div>
+            <details>
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" action="" id="contentFormulario" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..."></textarea><input type="text"
+                        placeholder="-/10"><input type="text" placeholder="Escribí tu nombre..."><input type="button"
+                        value="Confirmar" onclick="alert('Recibido!')">
+                </form>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" action="" id="contentFormulario1" class="formulario_resena">
+                    <textarea placeholder="Escribí acá tu reseña..."></textarea><input type="text"
+                        placeholder="-/10"><input type="text" placeholder="Escribí tu nombre..."><input type="button"
+                        value="Confirmar" onclick="alert('Recibido!')">
+                </form>
+            </details>
+        </div> -->
+        <div>
+            <details style="width: 350px;">
+                <summary><img src="https://i.kym-cdn.com/entries/icons/original/000/043/027/metalpipefalling.jpg"
+                        alt="buttonpng" width="350" height="250" class="boton-img"></summary>
+                <form method="post" id="contentFormulario2" class="formulario_resena"
+                    onsubmit="(e)=>{e.preventDefault();alert('recibido')}">
+                    <textarea placeholder="Escribí acá tu reseña..." rows="15" required></textarea>
+                    <input type="numer" placeholder="-/10" min="0" max="10" required>
+                    <input type="text" placeholder="Escribí tu nombre..." required>
+                    <input type="submit" value="Confirmar">
+                </form>
+            </details>
+        </div>
+    </div>
+
+    <script src="scripts/script1.js"></script>
+
+</body>
+
+</html>
